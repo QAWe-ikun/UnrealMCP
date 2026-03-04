@@ -766,6 +766,10 @@
 			"Type": "DynamicLibrary"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Win64/UnrealEditor-ImageDownload.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Win64/UnrealEditor-ImageWrapper.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -4179,6 +4183,26 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/GenerativeAISupport/Binaries/Win64/UnrealEditor-GenerativeAISupport.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/GenerativeAISupport/Binaries/Win64/UnrealEditor-GenerativeAISupport.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/GenerativeAISupport/Binaries/Win64/UnrealEditor-GenerativeAISupportEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/GenerativeAISupport/Binaries/Win64/UnrealEditor-GenerativeAISupportEditor.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/GenerativeAISupport/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		}
 	],
@@ -28684,6 +28708,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/GenerativeAISupport/GenerativeAISupport.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(ProjectDir)/UnrealMCP.uproject",
 			"Type": "UFS"
 		}
@@ -28774,6 +28802,7 @@
 		"GameplayCameras",
 		"GameplayInsights",
 		"GameplayTagsEditor",
+		"GenerativeAISupport",
 		"GeometryCache",
 		"GeometryCollectionPlugin",
 		"GeometryDataflow",
